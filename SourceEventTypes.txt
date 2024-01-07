@@ -1,0 +1,185 @@
+Misc.StreamerbotStarted
+Misc.Test
+Misc.TimedAction
+Command.CommandTriggered
+Command.CommandCooldown
+FileWatcher.FileWatcherChanged
+FileWatcher.FileWatcherCreated
+FileWatcher.FileWatcherDeleted
+FileWatcher.FileWatcherRenamed
+HotKey.HotKeyPress
+Midi.MidiMessage
+Misc.ProcessStarted
+Misc.ProcessStopped
+Quote.QuoteAdded
+Quote.QuoteShow
+Misc.ToastActivation
+SpeechToText.SpeechToTextCommand
+SpeechToText.SpeechToTextDictation
+WebsocketClient.WebsocketClientMessage
+WebsocketClient.WebsocketClientOpen
+WebsocketClient.WebsocketClientClose
+WebsocketCustomServer.WebsocketCustomServerClose
+WebsocketCustomServer.WebsocketCustomServerMessage
+WebsocketCustomServer.WebsocketCustomServerOpen
+CrowdControl.CrowdControlEffectFailure
+CrowdControl.CrowdControlEffectRequest
+CrowdControl.CrowdControlEffectSuccess
+CrowdControl.CrowdControlGameSessionEnd
+CrowdControl.CrowdControlGameSessionStart
+CrowdControl.CrowdControlTimedEffectEnded
+CrowdControl.CrowdControlTimedEffectStarted
+CrowdControl.CrowdControlTimedEffectUpdated
+Custom.CustomEvent
+Custom.CustomCodeEvent
+Obs.ObsRecordingStarted
+Obs.ObsRecordingStopped
+Obs.ObsStreamingStarted
+Obs.ObsStreamingStopped
+Obs.ObsConnected
+Obs.ObsDisconnected
+Obs.ObsEvent
+Obs.ObsDisconnected
+Obs.ObsSceneChanged
+StreamDeck.StreamDeckConnected
+StreamDeck.StreamDeckDisconnected
+StreamDeck.StreamDeckInfo
+Elgato.ElgatoWaveLinkConnected
+Elgato.ElgatoWaveLinkDisconnected
+Elgato.ElgatoWaveLinkFilterAdded //Needs testing
+Elgato.ElgatoWaveLinkFilterBypassStateChanged //Needs testing
+Elgato.ElgatoWaveLinkFilterChanged //Needs testing
+Elgato.ElgatoWaveLinkFilterDeleted //Needs testing
+Elgato.ElgatoWaveLinkInputMuteChanged //Needs testing
+Elgato.ElgatoWaveLinkInputNameChanged //Needs testing
+Elgato.ElgatoWaveLinkInputVolumeChanged //Needs testing
+Elgato.ElgatoWaveLinkMicrophoneBalanceChanged //Needs testing
+Elgato.ElgatoWaveLinkMicrophoneGainChanged //Needs testing
+Elgato.ElgatoWaveLinkMicrophoneMuteChanged //Needs testing
+Elgato.ElgatoWaveLinkMicrophoneOutputVolumeChanged //Needs testing
+Elgato.ElgatoWaveLinkMicrophoneSettingsChanged //Needs testing
+Elgato.ElgatoWaveLinkOutputLevelMeterChanged //Needs testing
+Elgato.ElgatoWaveLinkOutputMuteChanged //Needs testing
+Elgato.ElgatoWaveLinkOutputSwitched
+Elgato.ElgatoWaveLinkOutputVolumeChanged //Needs testing
+Elgato.ElgatoWaveLinkSelectedOutputChanged //Needs testing
+DonorDrive.DonorDriveDonation //Needs testing
+DonorDrive.DonorDriveIncentive //Needs testing
+DonorDrive.DonorDriveProfileUpdated //Needs testing
+HypeRate.HypeRateHeartRatePulse
+Kofi.KofiCommission
+Kofi.KofiDonation
+Kofi.KofiResubscription
+Kofi.KofiShopOrder
+Kofi.KofiSubscription
+Patreon.PatreonFollowCreated
+Patreon.PatreonFollowDeleted
+Patreon.PatreonPledgeCreated
+Patreon.PatreonPledgeDeleted
+Patreon.PatreonPledgeUpdated
+Pulsoid.PulsoidHeartRatePulse
+StreamElements.StreamElementsConnected
+StreamElements.StreamElementsDisconnected
+StreamElements.StreamElementsMerch
+StreamElements.StreamElementsTip
+Streamlabs.StreamlabsConnected
+Streamlabs.StreamlabsDisconnected
+Streamlabs.StreamlabsDonation
+Streamlabs.StreamlabsMerchandise
+TipeeeStream.TipeeeStreamDonation
+TreatStream.TreatStreamTreat
+VTubeStudio.VTubeStudioTrackingStatusChanged
+VTubeStudio.VTubeStudioBackgroundChanged
+VTubeStudio.VTubeStudioConnected
+VTubeStudio.VTubeStudioDisconnected
+VTubeStudio.VTubeStudioHotkeyTriggered //Needs testing
+VTubeStudio.VTubeStudioModelAnimation //Needs testing
+VTubeStudio.VTubeStudioModelConfigurationChanged //Needs testing
+VTubeStudio.VTubeStudioModelLoaded //Needs testing
+VTubeStudio.VTubeStudioModelUnloaded //Needs testing
+Twitch.TwitchAdMidRoll
+Twitch.TwitchAdRun
+Twitch.TwitchGoalBegin
+Twitch.TwitchGoalEnd
+Twitch.TwitchGoalProgress
+Twitch.TwitchRewardRedemption //Needs testing
+Twitch.TwitchRewardRedemptionUpdated //Needs testing
+Twitch.TwitchFollow
+Twitch.TwitchStreamOffline
+Twitch.TwitchStreamOnline
+Twitch.TwitchViewerCountUpdate
+Twitch.TwitchCharityCompleted
+Twitch.TwitchCharityProgress
+Twitch.TwitchCharityStarted
+Twitch.TwitchCharityDonation
+Twitch.TwitchHypeChatLevel
+Twitch.TwitchBotWhisper
+Twitch.TwitchChatMessage
+Twitch.TwitchCheer
+Twitch.TwitchHypeChat
+Twitch.TwitchWhisper
+Twitch.TwitchCommunityGoalContribution
+Twitch.TwitchCommunityGoalEnded
+Twitch.TwitchBroadcasterAuthenticated
+Twitch.TwitchBroadcasterChatConnected
+Twitch.TwitchBroadcasterEventSubConnected
+Twitch.TwitchBroadcasterPubSubConnected
+Twitch.TwitchBroadcasterChatDisconnected
+Twitch.TwitchBroadcasterEventSubDisconnected
+Twitch.TwitchBroadcasterPubSubDisconnected
+Twitch.TwitchBetterTTVEmoteAdded
+Twitch.TwitchBetterTTVEmoteRemoved
+Twitch.TwitchSevenTVEmoteAdded
+Twitch.TwitchSevenTVEmoteRemoved
+Twitch.TwitchAnnouncement
+Twitch.TwitchFirstWord
+Twitch.TwitchPresentViewers
+Twitch.TwitchShoutoutReceived
+Twitch.TwitchStreamUpdate
+Twitch.TwitchGuestStarGuestUpdate
+Twitch.TwitchGuestStarSessionBegin
+Twitch.TwitchGuestStarSessionEnd
+Twitch.TwitchGuestStarSettingsUpdate
+Twitch.TwitchHypeTrainEnd
+Twitch.TwitchHypeTrainLevelUp
+Twitch.TwitchHypeTrainUpdate
+Twitch.TwitchHypeTrainStart
+Twitch.TwitchChatCleared
+Twitch.TwitchChatMessageDeleted
+Twitch.TwitchShieldModeBegin
+Twitch.TwitchShieldModeEnd
+Twitch.TwitchShoutoutCreated
+Twitch.TwitchUserBanned
+Twitch.TwitchUserTimedOut
+Twitch.TwitchPollCompleted
+Twitch.TwitchPollCreated
+Twitch.TwitchPollTerminated
+Twitch.TwitchPollUpdated
+Twitch.TwitchPredictionCanceled
+Twitch.TwitchPredictionCompleted
+Twitch.TwitchPredictionCreated
+Twitch.TwitchPredictionLocked
+Twitch.TwitchPredictionUpdated
+Twitch.TwitchPyramidBroken
+Twitch.TwitchPyramidSuccess
+Twitch.TwitchRaidCancelled
+Twitch.TwitchRaidSend
+Twitch.TwitchRaidStart
+Twitch.TwitchRaid
+YouTube.YouTubeBroadcastEnded
+YouTube.YouTubeBroadcastStarted
+YouTube.YouTubeBroadcastUpdated
+YouTube.YouTubeStatisticsUpdated
+YouTube.YouTubeMessage
+YouTube.YouTubeFirstWords
+YouTube.YouTubeSuperChat
+YouTube.YouTubeSuperSticker
+YouTube.YouTubeNewSubscriber
+YouTube.YouTubePresentViewers
+YouTube.YouTubeNewSponsor
+YouTube.YouTubeNewSponsorOnlyEnded
+YouTube.YouTubeNewSponsorOnlyStarted
+YouTube.YouTubeUserBanned
+YouTube.YouTubeGiftMembershipReceived
+YouTube.YouTubeMemberMileStone
+YouTube.YouTubeMembershipGift
