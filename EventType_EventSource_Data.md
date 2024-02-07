@@ -15,20 +15,20 @@ public class CPHInline
 		switch(eventType)
 		{
 			case EventType.TwitchSub :
-				CPH.LogInfo("Do the Twitch Subscription thing");
+				//Do the Twitch Subscription thing
 				break;
 			case EventType.TwitchReSub :
-				CPH.LogInfo("Do the Twitch Re-Subscription thing");
+				//Do the Twitch Re-Subscription thing
 				break;
 		}
 		//Check what kind of EventSource (or use if)
 		switch(eventSource)
 		{
 			case EventSource.Twitch :
-				CPH.LogInfo("Do the Twitch thing");
+				//Do the Twitch thing
 				break;
 			case EventSource.YouTube :
-				CPH.LogInfo("Do the YouTube thing");
+				//Do the YouTube thing
 				break;
 		}
 		return true;
