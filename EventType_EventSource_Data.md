@@ -1,4 +1,42 @@
 ## List of current EventSources and EventTypes.
+### C# Usage in Streamer.Bot Example:
+Make sure to click "Find Refs" first in the Code window.
+```csharp
+using System;
+using Streamer.bot.Common.Events;
+
+public class CPHInline
+{
+	public bool Execute()
+	{
+		EventType eventType = CPH.GetEventType();
+		EventSource eventSource = CPH.GetSource();
+		//Check what kind of EventType (or use if)
+		switch(eventType)
+		{
+			case EventType.TwitchSub :
+				CPH.LogInfo("Do the Twitch Subscription thing");
+				break;
+			case EventType.TwitchReSub :
+				CPH.LogInfo("Do the Twitch Re-Subscription thing");
+				break;
+		}
+		//Check what kind of EventSource (or use if)
+		switch(eventSource)
+		{
+			case EventSource.Twitch :
+				CPH.LogInfo("Do the Twitch thing");
+				break;
+			case EventSource.YouTube :
+				CPH.LogInfo("Do the YouTube thing");
+				break;
+		}
+		return true;
+	}
+}
+```
+
+
 EventTypes marked by * still need confirmation.
 | EventSource  | EventType |
 | ------------- | ------------- |
