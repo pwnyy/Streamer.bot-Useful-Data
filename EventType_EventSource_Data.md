@@ -228,4 +228,3 @@ EventTypes marked by * still need confirmation.
 |              | YouTubeGiftMembershipReceived  |
 |              | YouTubeMemberMileStone  |
 |              | YouTubeMembershipGift  |
-|              | KofiSubscription  |
