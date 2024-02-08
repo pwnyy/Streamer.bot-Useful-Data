@@ -1,4 +1,4 @@
-## List of current EventSources and EventTypes.
+## List of current EventSources and EventTypes
 ### C# Usage in Streamer.Bot Example:
 Make sure to click "Find Refs" first in the Code window.
 ```csharp
