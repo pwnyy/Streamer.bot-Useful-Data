@@ -143,7 +143,7 @@ EventTypes marked by * still need confirmation.
 |              | TwitchGoalBegin  |
 |              | TwitchGoalEnd  |
 |              | TwitchGoalProgress  |
-|              | TwitchRewardRedemption *  |
+|              | TwitchRewardRedemption  |
 |              | TwitchRewardRedemptionUpdated *  |
 |              | TwitchFollow  |
 |              | TwitchStreamOffline  |
